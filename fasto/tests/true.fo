@@ -1,3 +1,0 @@
-fun int main() =
-  if (true) then let w = write(1) in 1
-  else let w = write(0) in 0

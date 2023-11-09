@@ -1,0 +1,47 @@
+%%%%% NOTER %%%%%
+
+Tag ned i INSTRUKTOR LOKALET i morgen så du kan snakke det igennem for dig selv.
+
+Så nøgler skal blokke når de bliver skrevet til (med mindre du bruger set()).
+Så det ville give mening at lave en worker til hver nøgle.
+Så denne worker kunne blokke indtil den var færdig med sin operation.
+Dette ville måske skabe lidt overhead, men processer i erlang er ret effektive.
+Dog ved jeg ikke hvordan man skulle implementere set() så.
+For den skal kunne afbryde en process der blocker og det ved jeg ikke om man kan?
+
+Client - Server forbindelsen skal aldig blocke.
+
+Der er to modeller:
+
+1. Clienten skal altid vente på den request han har sendt.
+Så serveren blockere altid for den client indtil den har svar.
+Hvis en anden client så kommer hen til serveren kan han godt lave en request. Uden at Serveren blocker. Hvis han så kalder
+
+
+
+Er det noget med at vores main server skal parre clienter op med servere de kan snakke med. Så kan den server blocke for clienten.
+Vores main server (eller en anden server) håndtere så cachen, og alle client-servers kan så prøve at snakke med cache-serveren.
+
+I denne model har vi:
+1 main server
+1 (måske) cache server
+n client servers der også er vores "workers"
+og det er det?
+
+clienter kan også godt bare sende request til main server, som så laver nye workers som den forbinder clienterne med. Men det er måske lidt for meget at håndtere..?
+
+
+Men det her fungere vel heller ikke.
+Vi har 2 ting der skal holdes styr på.
+1. Cachen, hvor der KUN skal blockes for de nøgler der bliver brugt. Men hver der samtidig kan overskrive blockaden hvis set() bliver kaldt.
+2. Queuen, som skal opdateres efter hver succefuldt write/read.
+(3. Give besked tilbage til brugeren.)
+
+
+
+Okay sidste tanker:
+Kør igennem alle de "events" der kan ske.
+Så først står Frappe bare og venter på nogen kommer og snakker med den.
+Så kommer der en og snakker med den, så Frappe sender dem over til en ny server.
+I denne nye server kan brugeren så bruge forskellige funktioner.
+Insert,

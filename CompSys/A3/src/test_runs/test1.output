@@ -1,0 +1,7 @@
+fffffffffffffffa fffffffffffffffc 0000000000000001 0000000000000003 0000000000000004 0000000000000006 
+Branch predictions:       62   miss       31    missrate: 0.500000
+Return predictions:        3   miss        0    missrate: 0.000000
+L2-Cache reads:       16   writes:        9   miss:       24   missrate: 0.960000
+I-Cache reads:       302   writes:        0   miss:       16   missrate: 0.052980
+D-Cache reads:        36   writes:       39   miss:        9   missrate: 0.120000
+Execution finished at cycle 1701
