@@ -1,0 +1,84 @@
+Compiling with opencl primes-seq
+Output from opencl benchmarks of primes-seq
+401566
+395289
+417225
+415583
+426810
+419212
+421398
+420143
+418363
+419905
+[2i64,
+Avg: 415549
+Compiling with c primes-seq
+Output from c benchmarks of primes-seq
+422087
+436425
+422879
+410860
+423209
+421335
+423274
+423690
+419505
+421686
+[2i64,
+Avg: 422495
+Compiling with opencl primes-naive
+Output from opencl benchmarks of primes-naive
+425536
+421676
+420119
+422734
+420386
+420533
+403841
+395802
+401428
+401811
+[2i64,
+Avg: 413387
+Compiling with c primes-naive
+Output from c benchmarks of primes-naive
+798701
+866575
+844179
+865184
+831762
+828726
+827709
+810928
+829792
+818364
+[2i64,
+Avg: 832192
+Compiling with opencl primes-flat
+Output from opencl benchmarks of primes-flat
+11054
+11198
+11156
+11171
+11166
+11084
+11106
+11159
+11065
+11107
+[2i64,
+Avg: 11126.6
+Compiling with c primes-flat
+Output from c benchmarks of primes-flat
+807392
+842769
+808179
+790820
+802593
+866147
+854112
+830147
+848619
+828525
+[2i64,
+Avg: 827930
