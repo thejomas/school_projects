@@ -1,0 +1,3 @@
+fun int main() =
+  if (false) then let w = write(1) in 1
+  else let w = write(0) in 0
