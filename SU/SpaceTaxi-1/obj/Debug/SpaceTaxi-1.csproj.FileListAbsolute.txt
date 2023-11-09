@@ -1,0 +1,12 @@
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/bin/Debug/SpaceTaxi-1.exe.config
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/bin/Debug/SpaceTaxi-1.exe
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/bin/Debug/SpaceTaxi-1.pdb
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/bin/Debug/DIKUArcade.dll
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/bin/Debug/OpenTK.dll
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/bin/Debug/DIKUArcade.pdb
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/bin/Debug/OpenTK.xml
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.csprojResolveAssemblyReference.cache
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.csproj.CoreCompileInputs.cache
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.csproj.CopyComplete
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.exe
+/Users/Batman/Dropbox/Datalogi/SU/SpaceTaxi/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.pdb
