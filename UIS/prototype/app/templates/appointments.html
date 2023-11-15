@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>My appointments</h1>
+    <br />
+    <h4>{{ current_user.name }}</h4>
+    {% for a in appointments %}
+    <div class="content-section">
+        <ul id="questionnaires" class="list-group list-group-horizontal">
+            <li class="list-group-item">Date: {{ a[0] }}</li>
+            <li class="list-group-item">Time: {{ a[1] }}</li>
+            <li class="list-group-item">Doctor: {{ a[2] }}</li>
+        </ul>
+    </div>
+    {% endfor %}
+{% endblock content %}
