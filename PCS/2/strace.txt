@@ -1,0 +1,12 @@
+Welcome to my little bomb. There will be 10 phases with which to blow yourself up.
+You have 30 seconds to defuse the bomb...
+
+Have a nice day!
+
+Phase 1:
+> Phase 1 has been defused
+Phase 2:
+> 
+
+Tick... Tick... Tick... The bomb has been blown... Nice Try...
+BOOOM!!!

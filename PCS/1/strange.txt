@@ -1,0 +1,3 @@
+Så Programmet bruger puts til at sætte et longword af 4 chars ind i en
+output streng.
+Se kommentarer i strange.asm

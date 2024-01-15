@@ -1,0 +1,2 @@
+The contents of 1 is C, assembly, and GDB files, I were to use GDB to extract information about a strange program, then write my own assembly.
+2 is a classical bomb program, that "explodes" if you take to long to solve the tasks within. So using reverse engineering I passed the first few levels of the bomb.
