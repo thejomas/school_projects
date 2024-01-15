@@ -1,0 +1,2 @@
+http://overthewire.org/wargames/bandit/bandit15.html
+ssh -i sshkey.private bandit.labs.overthewire.org -p 2220 -l bandit14

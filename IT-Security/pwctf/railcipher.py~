@@ -1,0 +1,6 @@
+def decode(n, cipher):
+    l = len(cipher)
+    top = (int) ciphter/n
+    print(top)
+
+print(decode(3, "PF_pb}wT{3cyt_0sCwr0i"))

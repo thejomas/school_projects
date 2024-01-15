@@ -1,0 +1,2 @@
+flag{Good job! THIS is the flag!} 
+(grep flag{.*} <FILE>)
