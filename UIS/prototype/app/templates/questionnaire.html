@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>My questionnaires</h1>
+    <br />
+    <h4>{{ current_user.name }}</h4>
+    <div class="content-section">
+        <ul id="questionnaires" class="list-group list-group-horizontal">
+            <a href="{{ url_for('Patient.questionnaires') }}" class="list-group-item">Back</a>
+            <li class="list-group-item">Type: {{ questionnaire[1] }}</li>
+            <li class="list-group-item">Deadline: {{ questionnaire[2] }}</li>
+            <li class="list-group-item">Filled out: {{ questionnaire[3] }}</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+    <table class="table">
+        <thead>
+          <tr>
+            <th>Question</th>
+            <th>Answer</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for a in answers %}
+            <tr>
+                <th>{{ a[0] }}</th>
+                <td>{{ a[1] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock content %}

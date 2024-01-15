@@ -1,0 +1,23 @@
+Cryptography - the art of writing or solving codes.
+
+Cryptography in the old days were very simple codes compared to now. Some
+examples of these could be monoalphabetic substitution, transposition ciphers,
+polyalphabetic ciphers, etc. These ciphers are called symmetric ciphers as you
+use the same key to encrypt and decrypt the secret message.
+
+Nowadays, the codes used to encrypt anything is far superior and with the invention of the computer it is much faster.
+
+One of the most famous cryptographers in the information age is Alan Turing, who
+not only deciphered the German enigma but also is considered the father of
+computer science and AI. The fact that he cracked the Enigma, which was considered
+the "uncrackable cipher", gave the impression that nothing could ever be encrypted
+safely enough, until RSA came along, and after that, Elliptic-Curve. Even though
+these ciphers in theory is crackable, the time to do so isn't feasible.
+
+Good thing you never really have to think about much of this as the underlying
+software on your PC is taking care of most of this encryption and decryption.
+
+So let's start this of easy with some rail fence cipher. Don't use this cipher
+for anything important, like a flag. Number of rails is 3. Now try to get the
+flag.
+WECRLTEERDSOEEFEAOCAIVDEN

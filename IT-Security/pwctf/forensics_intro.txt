@@ -1,0 +1,27 @@
+Forensics - The art of scientific investigation and analysis
+
+Taken directly from the inter webs:
+    "Computer forensics is the application of investigation and analysis
+    techniques to gather and preserve evidence from a particular computing
+    device in a way that is suitable for presentation in a court of law."
+
+Or in a boarder term, forensics is the art of investigating and analyzing
+data. Data in this context can mean anything but for computer science
+data is anything which can be found on a computer. Usually it revolves around
+a case with some data which is either hidden, corrupted, or otherwise 
+inaccessible. Making sense of this data is forensics.
+
+Forensics is a very broad field in computer science with a lot of information 
+and knowing every aspect of it is impracticable but knowing just a bit about 
+everything helps a huge deal. The challenges in this CTF includes a bit from 
+some different branches in the forensics field.
+
+For this challenge, a flag is hidden in a JPG file.
+
+Try opening the flag.jpg file with a picture viewer. 
+
+Huh.. I didn't work? Maybe something is wrong with the file. Checking what kind
+of file you are trying to open is always a good idea. On UNIX systems, a command
+called file will tell you everything you might want to know about a file.
+
+For Windows... pray notepad will show you something useful.
